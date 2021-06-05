@@ -5,8 +5,8 @@ import title from '../assets/images/title.png';
 const Navbar = () => {
     return (
         <div className="nav">
-            <img className="navInfoTitle" src={title} />
-            <img className="navInfoImage" src={infoIcon} />
+            <img className="navInfoTitle" src={title} alt="Title" />
+            <img className="navInfoImage" src={infoIcon} alt="Info" />
         </div>
     );
 };

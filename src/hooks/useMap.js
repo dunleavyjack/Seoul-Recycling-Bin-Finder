@@ -4,7 +4,7 @@ import { markerdata } from '../data/markerData';
 import trashPinImage from '../assets/images/trashPin.png';
 import recyclingPinImage from '../assets/images/recyclingPin.png';
 import locationPinImage from '../assets/images/locationPin3.png';
-import { getGridPosition, findClosestBin } from '../utils/helperFunctions';
+import { getGridPosition } from '../utils/helperFunctions';
 
 const useMap = () => {
     const [nearbyCans, setNearbyCans] = useState(0);

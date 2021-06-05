@@ -1,5 +1,4 @@
-/* global kakao */
-import React, { useState } from 'react';
+import React from 'react';
 import useMap from '../../hooks/useMap';
 import InfoPanel from '../InfoPanel';
 import Navbar from '../Navbar';
