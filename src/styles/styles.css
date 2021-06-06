@@ -142,8 +142,9 @@ body {
     z-index: -1;
     display: inline-block;
     margin-right: auto;
-    padding: 13px;
+    padding: 14px;
     height: 50%;
+    width: 40%;
 }
 
 .navInfoImage {
@@ -204,4 +205,14 @@ body {
     font-weight: 700;
     right: 21px;
     line-height: 1px;
+}
+
+.personalLinks {
+    text-align: center;
+}
+
+.customLink {
+    color: #008060 !important;
+    font-weight: 800;
+    text-decoration: none;
 }
