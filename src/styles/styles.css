@@ -142,9 +142,9 @@ body {
     z-index: -1;
     display: inline-block;
     margin-right: auto;
-    padding: 14px;
-    height: 50%;
-    width: 40%;
+    padding: 13px;
+    width: 197px;
+    height: 32px;
 }
 
 .navInfoImage {
