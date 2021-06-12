@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: theme.shadows[5],
         padding: theme.spacing(2, 4, 3),
         outline: 'none',
+        maxWidth: '450px',
     },
 }));
 
@@ -57,9 +58,10 @@ const Navbar = () => {
                     <div className={classes.paper}>
                         <h2 id="transition-modal-title">EN</h2>
                         <p id="transition-modal-description">
-                            Don’t see a bin from your area here? Send a photo of
-                            the bin and a description of its location or Kakao
-                            maps screenshot to sseuregiclub@gmail.com :)
+                            Not seeing a bin from your area? Send a photo of the
+                            bin along with either a description of its location
+                            or Kakao maps screenshot to sseuregiclub@gmail.com
+                            :)
                         </p>
                         <h2 id="transition-modal-title">KR</h2>
                         <p id="transition-modal-description">
@@ -91,7 +93,7 @@ const Navbar = () => {
                                     LinkedIn
                                 </a>
                             </p>
-                            <p>jack :)</p>
+                            <p>Jack</p>
                         </div>
                     </div>
                 </Fade>
