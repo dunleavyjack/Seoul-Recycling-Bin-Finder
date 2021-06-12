@@ -120,6 +120,7 @@ export const markerdata = [
         lat: 37.496615,
         lng: 127.069403,
     },
+    // 22 -25 are the cluster
     {
         title: '22',
         recycling: true,
@@ -239,5 +240,35 @@ export const markerdata = [
         recycling: true,
         lat: 37.482162,
         lng: 127.043078,
+    },
+    {
+        title: '42',
+        recycling: true,
+        lat: 37.516229,
+        lng: 127.019438,
+    },
+    {
+        title: '43',
+        recycling: true,
+        lat: 37.530627,
+        lng: 126.954482,
+    },
+    {
+        title: '44',
+        recycling: false,
+        lat: 37.53249,
+        lng: 127.060888,
+    },
+    {
+        title: '45',
+        recycling: false,
+        lat: 37.504986,
+        lng: 127.011363,
+    },
+    {
+        title: '46',
+        recycling: false,
+        lat: 37.484903,
+        lng: 127.016189,
     },
 ];
