@@ -5,15 +5,16 @@ import Navbar from '../Navbar';
 import { findClosestBin } from '../../utils/helperFunctions';
 
 const Map = () => {
-    const { canDistance, nearbyCans, nearbyRecycling, nearbyTrash } = useMap();
+    const { binDistance, nearbyBins, recyclingBinCount, trashBinCount } =
+        useMap();
     let closest = 0;
 
-    if (canDistance.length === 32) {
-        closest = findClosestBin(canDistance);
-        console.log('closest can below');
+    if (binDistance.length === 32) {
+        closest = findClosestBin(binDistance);
+        console.log('closest bin below');
         console.log(closest);
-        console.log('nearby cans below');
-        console.log(nearbyCans);
+        console.log('nearby bin below');
+        console.log(nearbyBins);
     }
 
     return (
@@ -24,9 +25,9 @@ const Map = () => {
                 style={{ width: '100vw', height: '100vh', margin: '0px' }}
             ></div>
             <InfoPanel
-                nearby={nearbyCans}
-                nearbyTrash={nearbyTrash}
-                nearbyRecycling={nearbyRecycling}
+                nearby={nearbyBins}
+                nearbyTrash={trashBinCount}
+                nearbyRecycling={recyclingBinCount}
             />
         </>
     );
