@@ -2,16 +2,9 @@ import React from 'react';
 import useMap from '../../hooks/useMap';
 import InfoPanel from '../InfoPanel';
 import Navbar from '../Navbar';
-import { findClosestBin } from '../../utils/helperFunctions';
 
 const Map = () => {
-    const { binDistance, nearbyBins, recyclingBinCount, trashBinCount } =
-        useMap();
-    let closest = 0;
-
-    if (binDistance.length === 32) {
-        closest = findClosestBin(binDistance);
-    }
+    const { nearbyBins, recyclingBinCount, trashBinCount } = useMap();
 
     return (
         <>
