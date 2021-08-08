@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import KakaoMap from './pages/KakaoMap';
+import AppRouter from './router/AppRouter';
 import './styles/styles.css';
 
-ReactDOM.render(
-    <>
-        <KakaoMap />
-    </>,
-    document.getElementById('root')
-);
+ReactDOM.render(<AppRouter />, document.getElementById('root'));
