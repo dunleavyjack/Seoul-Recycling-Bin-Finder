@@ -11,10 +11,6 @@ const Map = () => {
 
     if (binDistance.length === 32) {
         closest = findClosestBin(binDistance);
-        console.log('closest bin below');
-        console.log(closest);
-        console.log('nearby bin below');
-        console.log(nearbyBins);
     }
 
     return (
