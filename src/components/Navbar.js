@@ -35,7 +35,12 @@ const Navbar = () => {
 
     return (
         <div className="nav">
-            <img className="navInfoTitle" src={title} alt="Title" />
+            <img
+                className="navInfoTitle"
+                src={title}
+                alt="Title"
+                onClick={() => (window.location.pathname = '/')}
+            />
             <img
                 className="navInfoImage"
                 src={infoIcon}
